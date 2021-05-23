@@ -1,0 +1,65 @@
+#advlogo {
+    width: 70px;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+.appbar {
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;
+    margin: 25px 35px 25px 35px;
+}
+.inputbar {
+    border: 2px double;
+    border-color: rgb(199, 199, 199);
+    padding: 1px 8px 1px 8px;
+    background-color: transparent;
+    width: 700px;
+    max-width: 700px;
+    min-width: 150px;
+}
+table {
+    margin-left: 30px;
+}
+body {
+    font-family: arial, sans-serif;
+}
+.la1 {
+    padding-right: 20px;
+    font-size: 13px;
+    line-height: 16px;
+}
+#FPW {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 30px;
+    color: rgb(117, 117, 117)
+}
+#line {
+    border-top: 1px solid rgb(189, 189, 189);
+    width: 100%;
+    background-color: transparent;
+}
+#searches {
+    padding-right: 10px;
+    margin-right: 5px;
+    color: blue;
+    text-align: right;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+#advsearbtn {
+    text-align: right;
+    padding-top: 15px;
+}
+.hinttext {
+    font-size: 11px;
+    padding-left: 15px;
+}
+#todothis {
+    font-size: 13px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 15px;
+    color: rgb(117, 117, 117);
+}

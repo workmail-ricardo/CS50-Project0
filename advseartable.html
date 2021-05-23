@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="advseartable.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <img id="advlogo" src="Images/MainLogo.png">
+
+        <div id="searches">
+            <a href="Page1v2.html">Return to Google</a>
+            <a href="ImagesPage1.html">Images</a>
+        </div>   
+
+        <title>Advanced Search Project 0</title>
+
+    </head>
+    <body>
+
+        <div id="advsearchname" class="appbar">
+            <label> Advanced Search</label>
+        </div>
+
+        <div id="line"></div>
+
+
+        <table>
+            <tbody>
+                <form action="https://google.com/search" id="searparams" target="_parent" method="GET">
+                <tr>
+                        <td id="FPW">Find pages with...</td>
+                        <td></td>
+                        <td id="todothis"><b>To do this in the search box</b></td>
+                </tr>
+                <tr>
+                        <td display="none"><label class="la1" for="ATW">all of these words:</label></td>
+                        <td id="searbar"><div id="bar"><input class="inputbar" id="ATW" name="as_q" type="text"></div></td>
+                        <td class="hinttext">Type the important words:<i>tricolor rat terrier</i></td>
+                </tr>
+                <tr>
+                        <td display="none"><label class="la1" for="TEWP">this exact word or phrase:</label></td>
+                        <td id="searbar"><input class="inputbar" id="TEWP" name="as_epq" type="text"></td>
+                        <td class="hinttext">Put exact words in quotes:<i>"rat terrier"</i></td>
+                </tr>
+                <tr>
+                        <td display="none"><label class="la1" for="AoTW">any of these words:</label></td>
+                        <td id="searbar"><input class="inputbar" id="AoTW" name="as_oq" type="text"></td>
+                        <td class="hinttext">Type OR between all the words you want: <i>miniature or standard</i></td>
+                </tr>
+                <tr>
+                        <td display="none"><label class="la1" for="NTW">none of these words:</label></td>
+                        <td id="searbar"><input class="inputbar" id="NTW" name="as_eq" type="text"></td>
+                        <td class="hinttext">Put a minus sign just before the words you don't want:<i>-rodent, -"Jack Russell"</i></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="advsearbtn"><input type="submit" class="btn btn-primary" value="Advanced Search" method="GET"></td>
+                </tr>
+                </form>
+            </tbody>
+        </table>
+        
+    </body>
+</html>
